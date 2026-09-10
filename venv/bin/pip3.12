@@ -1,4 +1,4 @@
-#!/Users/guyukio/Projects/snowflake-medallion-dbt/venv/bin/python3.12
+#!/Users/guyukio/Projects/postgres-airflow-dbt-medallion-pipeline/venv/bin/python3.12
 import sys
 from pip._internal.cli.main import main
 if __name__ == '__main__':

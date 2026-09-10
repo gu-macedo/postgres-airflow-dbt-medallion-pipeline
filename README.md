@@ -1,2 +1,2 @@
-# postgrees-medallion-pipeline
+# postgres-airflow-dbt-medallion-pipeline
 Postgrees ingestion and ELT pipeline to creating a medallion architecture ambient.

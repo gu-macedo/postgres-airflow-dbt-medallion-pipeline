@@ -41,12 +41,12 @@ case "$(uname)" in
     CYGWIN*|MSYS*|MINGW*)
         # transform D:\path\to\venv to /d/path/to/venv on MSYS and MINGW
         # and to /cygdrive/d/path/to/venv on Cygwin
-        VIRTUAL_ENV=$(cygpath /Users/guyukio/Projects/snowflake-medallion-dbt/venv)
+        VIRTUAL_ENV=$(cygpath /Users/guyukio/Projects/postgres-airflow-dbt-medallion-pipeline/venv)
         export VIRTUAL_ENV
         ;;
     *)
         # use the path as-is
-        export VIRTUAL_ENV=/Users/guyukio/Projects/snowflake-medallion-dbt/venv
+        export VIRTUAL_ENV=/Users/guyukio/Projects/postgres-airflow-dbt-medallion-pipeline/venv
         ;;
 esac
 
